@@ -1,0 +1,19 @@
+:root{
+    --gray-white:  #ECF2F8;
+    --white: #FFF;
+    --dark-gray: #48556A;
+    --gray: #6E8098;
+    --light-gray: #9DAEC2;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.post-wall{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--gray-white);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
